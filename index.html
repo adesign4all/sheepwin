@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+		<title>在线刷羊了个羊通关次数测试程序</title>
+		<meta name="keywords" content="羊了个羊,刷次数,通过次数" />
+		<meta name="description" content="如何在朋友面前刷羊了个羊通关次数来装逼呢？" />
+		<script src="jquery.min.js"></script>
+		<script src="layer.min.js" type="application/javascript"></script>
+		<link href="bootstrap.css" type="text/css" rel="stylesheet">
+		<link href="style.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="box col-12">
+				<div class="alert alert-success mb-3" role="alert" id="content">
+					使用教程:<br>
+					微信打开羊了个羊小程序，点击设置图标,把UID记下来<br>
+					然后在本网站下方输入自己的UID,点击开始按钮<br>
+					刷的速度由羊了个羊服务器决定，慢的话多获取几遍&nbsp;&nbsp;&nbsp;<br>
+					本代码仅作测试使用，禁止用于正版游戏刷排名。请大家支持正版游戏！<br>
+				</div>
+				<div class="form-inline uid mb-3 clearfix">
+					<div class="form-floating col-12">
+						<input class="form-control" id="uid" placeholder="输入UID获取token" value="" oninput="value=value.replace(/[^\d]/g,'')">
+						<label for="token">输入UID</label>
+					</div>
+					<div class="lastUid" style="display: none;">
+						<a>输入上次的UID</a>
+					</div>
+					<div class="form-inline mb-3 text-center">
+						<div class="form-check form-check-inline">
+						  <input class="form-check-input" id="inlineRadio0" type="radio" name="get_type" value="0" checked>
+						  <label class="form-check-label" for="inlineRadio0">全部都刷</label>
+						</div>
+						<div class="form-check form-check-inline">
+						  <input class="form-check-input" id="inlineRadio1" type="radio" name="get_type" value="1">
+						  <label class="form-check-label" for="inlineRadio1">刷通关</label>
+						</div>
+						<div class="form-check form-check-inline">
+						  <input class="form-check-input" id="inlineRadio2" type="radio" name="get_type" value="2">
+						  <label class="form-check-label" for="inlineRadio2">刷话题</label>
+						</div>
+					</div>
+					<button class="btn btn-success col-12" id="get_token">
+						立即开始
+						<div class="spinner-border spinner-border-sm text-light" style="display: none;margin-left:0.2rem;vertical-align: middle;margin-top:-2px;"></div>
+					</button>
+				</div>
+				<div class="btn3">
+					  本代码仅作测试使用，禁止用于正版游戏刷排名。请大家支持正版游戏！
+				</div>
+							
+				
+			</div>
+			<div style="height:1rem;"></div>
+		</div>
+		<script src="common.js"></script>
+	</body>
+</html>

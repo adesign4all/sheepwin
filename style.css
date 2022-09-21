@@ -1,0 +1,167 @@
+* {
+	padding: 0;
+	margin: 0
+}
+
+body {
+	background-color: #75c473;
+	padding-bottom: 2rem;
+}
+
+body>.container {
+	width: 800px;
+	background: url(bg.jpg) no-repeat top;
+	background-size: 100%
+}
+
+.box {
+	background-color: #fff;
+	border-radius: 2rem;
+	height: 100%;
+	top: 15rem;
+	position: relative;
+	padding: 2rem;
+	box-shadow: 0 .4rem 1rem .1rem rgb(0 0 0 / 20%)
+}
+
+.box .form-control {
+	border-radius: 1rem
+}
+
+.box .form-control:focus {
+	border-color: #75c473;
+	box-shadow: 0 0 0 .1rem #75c473
+}
+
+.box .alert-success {
+	border-radius: 1rem
+}
+
+.box button {
+	border-radius: 1rem;
+	height: calc(3.5rem + 2px);
+	line-height: 1.25;
+}
+
+.box .btn-success {
+	background-color: #75c473;
+	color: #fff;
+	border-color: #75c473
+}
+
+.box #jiaocheng .btn svg {
+	margin-top: -2px
+}
+
+.box #jiaocheng .btn3 {
+	margin-top: 1rem
+}
+
+.box #jiaocheng .btn3 a {
+	display: inline-flex;
+	font-size: .8rem;
+	background-color: #75c473;
+	color: #fff;
+	border-radius: .25rem;
+	margin-bottom: .2rem;
+	padding: .5rem .5rem
+}
+
+.form-floating {
+	margin: 1rem 0;
+}
+
+.box .uid .form-floating {
+	float: left;
+}
+
+.box .uid .form-floating .form-control {
+	float: left;
+}
+
+.box .uid .btn-secondary {
+	float: left;
+}
+
+.box .uid .btn-success {
+	float: right;
+}
+
+@media screen and (max-width:800px) {
+	body>.container {
+		width: 100%
+	}
+}
+
+@media screen and (max-width:500px) {
+	.box {
+		top: 8rem;
+	}
+
+	.box .uid .btn-success {
+		width: 100%;
+		margin-top: 1rem;
+	}
+}
+
+@media screen and (max-width:400px) {
+	.box {
+		top: 10rem
+	}
+}
+
+#get_token {
+	margin-top: 1rem;
+	vertical-align: middle;
+}
+#content{
+	font-size:0.9rem;
+	line-height:1.6rem;
+}
+.log {
+	margin-top:2rem;
+	max-height:20rem;
+	overflow-y: auto;
+	font-size:0.9rem;
+	line-height:1.5rem;
+}
+.log .log-main{
+	word-break:reak-all;
+}
+.log .log-main div{
+	margin-bottom:0.4rem;
+}
+.log .log-main div img{
+	vertical-align: middle;
+	margin-top:-2px;
+	width:1.2rem;
+	height:1.2rem;
+	border-radius:50%;
+	margin-right:0.6rem;
+}
+
+.box .btn3{margin-top:2rem;text-align: center;}
+.box .btn3 a{display:inline-flex;font-size:.7rem;background-color:#5a5a5a;color:#fff;border-radius:.25rem;margin-bottom:.3rem;padding:.4rem .4rem}
+.videoBtn{
+	cursor: pointer;
+	color: #0d6efd;
+	text-decoration: underline;
+}
+.form-check-inline{
+	cursor: pointer;
+}
+.box .form-check-input:checked {
+    background-color: #75c473;
+    border-color: #75c473;
+}
+.lastUid{
+	margin-top:-0.4rem;
+	margin-bottom:3rem;
+	text-align: right;
+}
+.lastUid a{
+	font-size:0.9rem;
+	text-decoration: none;
+	color:#999;
+	cursor: pointer;
+}
